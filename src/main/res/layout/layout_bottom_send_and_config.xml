@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#262a32"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/ibt_send_config"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/selector_ibt_send_config"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/ibt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_btn_send"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/et_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/ibt_send_config"
+            android:layout_toLeftOf="@id/ibt_send"
+            android:textColor="@android:color/white"
+            android:background="@mipmap/bg_shuru"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_send_config"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:scrollbarDefaultDelayBeforeFade="3000"
+        android:layout_height="140dp"
+        android:visibility="gone"/>
+</LinearLayout>

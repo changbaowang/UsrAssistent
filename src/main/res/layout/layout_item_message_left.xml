@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="100dp"
+    android:paddingBottom="8dp">
+    <TextView
+        android:id="@+id/tv_msg_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#53b7e6"
+        android:textSize="14sp"
+        android:text="192.168.1.230"/>
+    <TextView
+        android:id="@+id/tv_msg_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_msg_from"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="5dp"
+        android:textColor="#53b7e6"
+        android:textSize="18sp"
+        android:text="www.usr.cn"
+        android:background="@drawable/bg_msg_left"/>
+</RelativeLayout>

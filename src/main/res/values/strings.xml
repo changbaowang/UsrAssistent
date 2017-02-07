@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">USR ASSISTENT</string>
+    <string name="select_service">Select Service</string>
+    <string name="tcp_server">Tcp Server</string>
+    <string name="tcp_client">Tcp Client</string>
+    <string name="udp_fragment">Udp</string>
+    <string name="config">CONFIG</string>
+    <string name="about">About</string>
+    <string name="action_settings">Settting</string>
+    <string name="conn_state_connecting">Listening</string>
+    <string name="conn_state_break">Not listening</string>
+    <string name="connect">Connect</string>
+    <string name="conn_break">Break</string>
+    <string name="clear">Clear text</string>
+    <string name="hex_display">HEX display</string>
+    <string name="hex_send">HEX send</string>
+    <string name="timer_send">Timer send</string>
+    <string name="input_ip">Input ip</string>
+    <string name="input_port">Input target port</string>
+    <string name="input_local_port">Input local port</string>
+    <string name="input_port_2000">Input target port(>1999)</string>
+    <string name="input_local_port_2000">Input local port(>1999)</string>
+    <string name="config_conn">Config Connection</string>
+    <string name="config_error">Config parameters error</string>
+    <string name="listening">Listening</string>
+    <string name="not_listening">Not listening</string>
+    <string name="connect_first">Please create a connection first</string>
+    <string name="connect_has_break">Connection break</string>
+    <string name="connect_failed">connection fail</string>
+    <string name="break_connect_first">Please break connection first</string>
+    <string name="connections">CONNS</string>
+    <string name="no_connections">No connections</string>
+    <string name="select_connection_first">Please select a connection</string>
+    <string name="local_connection_info">Local connection info</string>
+    <string name="hex_send_digits">1234567890abcdefABCDEF&#160;</string>
+    <string name="interval_time">Interval time( >= 50 msecs)</string>
+    <string name="time_invalid">Time invalid</string>
+    <string name="input_send_content">Send text invalid</string>
+    <string name="set_a_time">Set a time</string>
+    <string name="version">Version:Alpha v1.0</string>
+    <string name="about_content">\u0020\u0020\u0020\u0020\u0020\u0020济南有人物联网技术有限公司(简称：有人物联网)位于济南高新开发区，
+        专注物联网之联网产品领域，主营串口服务器、以太网转串口、GPRS DTU、嵌入式WIFI模块等。\n\n
+        \u0020\u0020\u0020\u0020 有人在认真做事\n\n
+         \u0020\u0020\u0020\u0020 http:www.usr.cn\n\n
+         \u0020\u0020\u0020\u0020 0531-88826739\n\n
+          \u0020\u0020\u0020\u0020 济南市高新区新泺大街1166号奥盛大厦1号楼11层</string>
+
+</resources>

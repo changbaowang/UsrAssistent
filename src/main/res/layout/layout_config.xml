@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#20ffffff"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/config_conn"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.usr.assistent.views.MyEditTextLayout
+        android:id="@+id/met_config_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/my_param_name3"
+            style="@style/tv_config"
+            android:text="@string/input_ip" />
+
+        <EditText
+            android:id="@+id/et_config_ip"
+            style="@style/et_config"
+            android:layout_below="@id/my_param_name3"
+            android:digits="1234567890."
+            android:hint="@string/input_ip" />
+    </com.usr.assistent.views.MyEditTextLayout>
+
+
+    <com.usr.assistent.views.MyEditTextLayout
+        android:id="@+id/met_config_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/my_param_name4"
+            style="@style/tv_config"
+            android:text="@string/input_port" />
+
+        <EditText
+            android:id="@+id/et_config_port"
+            style="@style/et_config"
+            android:layout_below="@id/my_param_name4"
+            android:hint="@string/input_port"
+            android:inputType="number"
+            android:maxLength="5" />
+    </com.usr.assistent.views.MyEditTextLayout>
+
+    <com.usr.assistent.views.MyEditTextLayout
+        android:id="@+id/met_config_localport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/my_param_name5"
+            style="@style/tv_config"
+            android:text="@string/input_local_port" />
+
+        <EditText
+            android:id="@+id/et_config_localPort"
+            style="@style/et_config"
+            android:layout_below="@id/my_param_name5"
+            android:hint="@string/input_local_port"
+            android:inputType="number"
+            android:maxLength="5" />
+    </com.usr.assistent.views.MyEditTextLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_config_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/selector_btn_config_ok"
+            android:padding="5dp"
+            android:text="CANCEl"
+            android:textColor="#C0392B"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_config_ok"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/selector_btn_config_ok"
+            android:padding="5dp"
+            android:text="OK"
+            android:textColor="#16A085"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

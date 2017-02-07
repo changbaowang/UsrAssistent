@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="#262a32"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <com.usr.assistent.views.RevealBackgroundView
+        android:id="@+id/revealBackgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#363a45">
+
+        <ImageButton
+            android:id="@+id/ibt_about_main_menu"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/btn_default_light"
+            android:src="@mipmap/ic_menu_white" />
+
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="8dp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/about"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_top"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:text="@string/about_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textColor="#56c6ff"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/ibt_config"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/btn_timer_hl"/>
+
+    <TextView
+        android:id="@+id/tv_config_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="#53b7e6"
+        android:textSize="14sp"
+        android:text="定时发送"/>
+</LinearLayout>

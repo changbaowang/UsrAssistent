@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:visibility="invisible"
+    android:background="@drawable/drawable_bg_conn">
+
+    <ImageView
+        android:id="@+id/iv_conn_state"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:src="@mipmap/btn_ts_hl"/>
+
+    <TextView
+        android:id="@+id/tv_conn_state"
+        android:layout_toRightOf="@id/iv_conn_state"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#53b7e6"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:text="@string/conn_state_break"/>
+
+    <Button
+        android:id="@+id/btn_conn_option"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/connect"
+        android:textSize="14sp"
+        android:textColor="#53b7e6"
+        android:background="@drawable/btn_default_light"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/bg_fengexian"/>
+</RelativeLayout>

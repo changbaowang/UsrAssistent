@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.usr.assistent.views.MyRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myrl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.usr.assistent.views.RevealBackgroundView
+        android:id="@+id/revealBackgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar_top"/>
+    <include
+        android:id="@+id/view_conn_state"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        layout="@layout/layout_conn_state"/>
+
+
+
+    <include
+        android:id="@+id/view_msg_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight = "8dp"
+        android:paddingLeft = "8dp"
+        android:layout_below="@id/view_conn_state"
+        android:paddingBottom="50dp"
+        layout="@layout/layout_msg_recycelview"/>
+
+
+    <include
+        android:id="@+id/view_send_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/layout_bottom_send_and_config"/>
+
+
+
+</com.usr.assistent.views.MyRelativeLayout>

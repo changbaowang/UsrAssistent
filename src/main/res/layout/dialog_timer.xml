@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.usr.assistent.views.MyEditTextLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+        <TextView
+            android:id="@+id/my_param_name3"
+            style="@style/tv_config"
+            android:text="@string/interval_time"/>
+
+        <EditText
+            android:id="@+id/et_input_time"
+            android:layout_below="@id/my_param_name3"
+            style="@style/et_config"
+            android:hint="@string/interval_time"
+            android:inputType="number"/>
+    </com.usr.assistent.views.MyEditTextLayout>
+</LinearLayout>

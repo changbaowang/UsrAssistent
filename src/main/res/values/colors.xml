@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="style_color_primary">#363a45</color>
+    <color name="style_color_accent">#bbbcc0</color>
+    <color name="style_color_primary_dark">#363a45</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#20ffffff</color>
+
+    <color name="bg_color_start">#1d6571</color>
+    <color name="bg_conn_state_end">#134f62</color>
+    <color name="bg_data_show_end">#002a49</color>
+
+    <color name="config_item_normal">#bbbcc0</color>
+    <color name="config_item_hl">#53b7e6</color>
+    <color name="config_btn_pressed">#D4D4D4</color>
+
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+
+</resources>

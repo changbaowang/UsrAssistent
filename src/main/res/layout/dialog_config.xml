@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.usr.assistent.views.MyEditTextLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/my_param_name3"
+            style="@style/tv_config"
+            android:text="@string/input_ip"/>
+
+        <EditText
+            android:id="@+id/et_config_param_value3"
+            android:layout_below="@id/my_param_name3"
+            style="@style/et_config"
+            android:hint="@string/input_ip"
+            android:digits="1234567890."/>
+    </com.usr.assistent.views.MyEditTextLayout>
+
+
+    <com.usr.assistent.views.MyEditTextLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/my_param_name4"
+            style="@style/tv_config"
+            android:text="@string/input_port"/>
+
+        <EditText
+            android:id="@+id/et_config_param_value4"
+            android:layout_below="@id/my_param_name4"
+            style="@style/et_config"
+            android:maxLength="5"
+            android:hint="@string/input_port"
+            android:inputType="number"/>
+    </com.usr.assistent.views.MyEditTextLayout>
+</LinearLayout>
